@@ -24,5 +24,6 @@ should expect to see in other projects:
 
 #Project Status
 
-> This project is a [WORK_IN_PROGRESS](WORK_IN_PROGRESS.md). You should have no
-> expections that it will end up looking anything like it looks now!
+> This project is a [WORK_IN_PROGRESS](project_status/WORK_IN_PROGRESS.md).
+> You should have no expections that it will end up looking anything like it
+> looks now!

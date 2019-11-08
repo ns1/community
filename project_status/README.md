@@ -1,5 +1,5 @@
 NS1 project statuses are roughly tied to Software Development Lifecycle. For
-now, there are 3 categories for projects:
+now, projects should be in one of these categories:
 
 * [WORK_IN_PROGRESS](WORK_IN_PROGRESS.md)
 * [ACTIVE_DEVELOPMENT](ACTIVE_DEVELOPMENT.md)
