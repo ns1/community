@@ -22,8 +22,6 @@ As this project is itself one of NS1's public-facing projects, below serves as
 both an accurate status blurb for this project, and as an example for what you
 should expect to see in other projects:
 
-#Project Status
-
 > This project is a [WORK_IN_PROGRESS](project_status/WORK_IN_PROGRESS.md).
 > You should have no expections that it will end up looking anything like it
 > looks now!
