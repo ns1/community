@@ -9,7 +9,8 @@ and for NS1's interaction with the community at large.
 It contains documentation around:
 
   * How best to [contribute](Contributing.md) to NS1 projects.
-  * How to file [issues](Issues.md) effectively.
+  * How to file [Issues](Issues.md) effectively and what to expect about how
+    they are handled.
   * What the [status](project_status/README.md) of a project means, and what
     responsibilities and expectations that status entails.
 
