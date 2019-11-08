@@ -4,11 +4,12 @@ NS1's interaction with the community at large.
 
 It contains documentation around:
 
-  * How to [contribute]() or file [issues]() effectively.
-  * The [status]() of NS1's open-source projects, in terms of where things are
-    in the software development lifecycle, and expectations that you can have
-    from NS1 for handling Issues and Pull Requests in a timely and organized
-    fashion.
+  * How to [contribute](Contributing.md) or file [issues](Issues.md)
+    effectively.
+  * The [status](project_status/README.md) of NS1's open-source projects, in
+    terms of where things are in the software development lifecycle, and
+    expectations that you can have from NS1 for handling Issues and Pull
+    Requests in a timely and organized fashion.
 
 In general, NS1's public-facing projects should have a few words about the
 project status, including links pointing to the appropriate files in this
@@ -23,5 +24,5 @@ should expect to see in other projects:
 
 #Project Status
 
-    This project is a [WORK_IN_PROGRESS](). You should have no expections that
-    it will end up looking anything like it looks now!
+> This project is a [WORK_IN_PROGRESS](WORK_IN_PROGRESS.md). You should have no
+> expections that it will end up looking anything like it looks now!

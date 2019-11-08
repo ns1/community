@@ -7,7 +7,7 @@ expectations and aid in getting things resolved as quickly as possible.
   happened instead.
 * Be as specific as possible about what *you* are trying to do. If we
   understand your goal, it helps keep us focused on practical matters. Help us
-  avoid [The XY Problem]()!
+  avoid [The XY Problem](http://xyproblem.info)!
 * Let us know what version of software and/or languages you are using.
 * Providing a reproducible example of the problem is always helpful.
 * Stack/error traces are nice if we can have them. (make sure there's nothing
