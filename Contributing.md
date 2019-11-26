@@ -5,11 +5,12 @@ guidelines that can help get your Pull Request approved and merged quickly
 and painlessly, with a minimum of fuss.
 
 First, if you are working on behalf of an existing NS1 client, we ask that you
-raise your issue(s) via one of our support channels (email or NS1 Help Center) before, 
-or at least concurrent with, opening issues and PRs via Github. This allows us to keep 
-the right people and the right teams in the loop, will help us prioritize and respond
-effectively. Knowing that a PR is coming in advance can help us budget time and
-people in advance, so we can get things sorted fast!
+raise your issue(s) via one of our support channels (email or NS1 Help Center)
+before, or at least concurrent with, opening issues and PRs via Github. This
+allows us to keep the right people and the right teams in the loop, and will
+help us prioritize and respond effectively. Knowing that a PR is coming in
+advance can help us budget time and people in advance, so we can get things
+sorted fast!
 
 These are guidelines and you are welcome to submit a Pull Request that does not
 follow them. If the idea is sound and the code is good, but does not follow
