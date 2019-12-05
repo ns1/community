@@ -1,43 +1,50 @@
-## Opening an Issue
+## Opening an issue
 
-Here are a few guidelines when opening an issue on one of NS1's open-source
-repositories. They should be unsurprising and make sense. Feel free to ignore
-them or pick and choose which ones you like, they're just here to set some
-expectations and aid in getting things resolved as quickly as possible.
+Below are a few guidelines for opening an issue on one of NS1's open-source
+repositories. Adhering to these guidelines to the best of your ability will
+help ensure that requests are resolved quickly and efficiently.
 
-* Be as specific as possible about the problem, what was expected, and what
-  happened instead.
-* Be as specific as possible about what *you* are trying to do. If we
-  understand your goal, it helps keep us focused on practical matters. Help us
-  avoid [The XY Problem](http://xyproblem.info)!
-* Let us know what version of software and/or languages you are using.
-* Providing a reproducible example of the problem is always helpful.
-* Stack/error traces are nice if we can have them. (make sure there's nothing
-  sensitive in there!)
+* **Be specific about the problem.** When describing your issue, it's helpful
+  to include as many details as you can about the expected behavior versus
+  what happened or is happening instead.
+* **Be specific about your objective.** Help us understand exactly what you are
+  trying to accomplish so that our developers have a clear understanding about
+  the particular problem you are trying to solve. In other words, help us
+  avoid the "[XY Problem](http://xyproblem.info)".
+* **Indicate which products, software versions, and programming languages you
+  are using.** In your request, indicate which NS1 product(s) you're using and,
+  if relevant, which versions you are running. Also include any third-party
+  software and versions that are relevant to the issue. If not obvious, include
+  which programming language(s) you are using.
+* **If possible, provide a reproducible example of the problem.** This allows
+  us to better examine the issue and test solutions.
+* **If possible, include stack/error traces.** Note: ensure there is no
+  sensitive included in your stack/error traces.
 
-## Closing an Issue
+## Closing an issue
 
-* If an Issue is fixed by a commit, the relevant PR or commit should be
-  referenced when closing.
-* If an Issue is closed by NS1 for any other reason, there should be a reason
-  associated with the closure. Depending on the project status, this may be
-  more or less "chatty", but the reason should be clear.
-* It is OK and fine to re-open an Issue if the fix does not work or is not
-  acceptable, or you disagree with the reason. It is also OK and fine to make
-  a brand-new Issue. Use your best judgment on which makes the most sense. As
-  always, be clear about your reasoning, and please bear in mind that project
-  status consideration or other business needs may lead us to (politely) close
-  the new or reopened Issue.
+* If an issue is closed by a commit, reference the relevant PR or commit when
+  closing.
+* If an issue is closed by NS1 for any reason, you should expect us to include
+  a reason for it.
+* If the fix does not work or is incomplete, you are welcome to re-open or
+  recreate the issue. When doing so, it's important to be clear about why the
+  previous fix was inadequate, to clarify the previous problem statement,
+  and/or to modify the scope of the request. Please keep in mind that project
+  status consideration or conflicting priorities may require us to close or
+  defer work on the new or reopened issue. If that happens, feel free to reach
+  out of support@ns1.com for more information.
 
-## Tags on Issues
+## Tags on issues
 
-In some projects we use tags on some issues, but rather informally, and not in
-a complex way. We avoid using tags to indicate timelines or priorities, and
-they should not be considered as indications of such. Here are definitions for
-the tags we use most:
+In some projects we (NS1) may apply basic tags on some issues, for
+organizational purposes. Note: we do not use tags to indicate timelines or
+priorities.
 
-* BUG - We have confirmed that this is a bug. We intend to fix it. The issue
-  will remain open until the bug is squashed.
-* ENHANCEMENT - this seems like a good idea and we want to keep track of it.
-  Issues with this tag may get closed, but that does not mean we have forgotten
-  about it, or do not intend to implement it.
+Here are definitions for the most common tags we use:
+
+* **BUG** - This tag confirms that the issue is a bug we intend to fix. The
+  issue will remain open until it is resolved.
+* **ENHANCEMENT** - This tag indicates that we have categorized the issue as a
+  feature request. Depending on priorities and timelines, we may close issues
+  with this tag and track them in our internal backlog instead.
