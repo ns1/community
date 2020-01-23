@@ -1,8 +1,6 @@
-At NS1, It makes us very happy to get Pull Requests, and we respect and
-appreciate the time and effort it takes to put one together. We will do our
-best to be communicative and help out with them. That said, there are a few
-guidelines that can help get your Pull Request approved and merged quickly
-and painlessly, with a minimum of fuss.
+At NS1, it makes us very happy to get pull requests, and we appreciate the time
+and effort it takes to put one together. Below are a few guidelines that can
+help get your pull request approved and merged quickly and easily.
 
 First, if you are working on behalf of an existing NS1 client, we ask that you
 raise your issue(s) via one of our support channels (email or NS1 Help Center)
@@ -12,36 +10,32 @@ help us prioritize and respond effectively. Knowing that a PR is coming in
 advance can help us budget time and people in advance, so we can get things
 sorted fast!
 
-These are guidelines and you are welcome to submit a Pull Request that does not
-follow them. If the idea is sound and the code is good, but does not follow
-these guidelines, we will likely be happy to discuss and get things into
-shape ourselves, but it may take some time.
+It's important to note that the guidelines are recommendations, not
+requirements. You may submit a pull request that does not adhere to the
+guidelines, but ideation and development may take longer or be more involved.
 
-* Avoid getting nitpicked. Match the style of any given file as best you can,
-  i.e. tabs or spaces as appropriate, curly brace placement, indentation style,
-  line length, etc... If there are any linters mentioned in docs or Makefile,
-  please run them. In general, better to fit in than to be correct.
+* Avoid getting nitpicked for basic formatting. Match the style of any given
+  file as best you can - tabs or spaces as appropriate, curly bracket
+  placement, indentation style, line length, etc. If there are any linters
+  mentioned in docs or Makefile, please run them.
 
-* Avoid changes that have any possibility of breaking existing uses. Many of
-  these codebases have lots of users, doing creative things, and breaking
-  changes can be a real pain for them. Some projects are also relied on by
-  higher-level projects, both internal and external, and sometimes coordinating
-  even minor changes can be tricky.
-  It can be a challenge to identify when a small change can have large
-  ramifications, so we mainly ask that you keep this in mind when writing code.
-  Do your best to preserve interfaces, and be understanding if we cannot accept
-  good work due to our responsibility to keep things stable, and to avoid
-  breakage that may not be obvious at all.
+* Avoid changes that have any possibility of breaking existing uses. Some of
+  these codebases have many of users, doing creative things with them. Breaking
+  changes can cause significant challenges for other users. It's important to
+  note that some projects are dependencies of other projects, and changes may
+  require cross-code base coordination. It can be challenging to identify if a
+  small change will have large ramifications, so we mainly ask that you keep
+  this in mind when writing or modifying code. Do your best to preserve
+  interfaces, and understand that NS1 may need to reject pull requests if they
+  would jeopardize platform stability or place an undue burden on other users.
 
 * If there are unit and/or integration tests, keeping the test suites passing
   is a must before we can merge. And nice tests around the changes will
   definitely help get a patch merged quickly.
 
-* Ensuring that any documentation that is part of the project is updated per
-  changes will help get Pull Requests merged quickly. We call this out because
-  it is easy to forget!
+* Ensure that any documentation that is part of the project is updated as part
+  of the pull request. This helps to expedite the merge process.
 
-* Be considerate when introducing dependencies. It's often pretty clear from
-  looking at existing dependencies whether a new dependency will be
-  controversial or not worth mentioning. Where possible, pin dependencies as
-  specifically as possible.
+* Be considerate when introducing new dependencies to a project. If a new
+  dependency is necessary, try to choose a well-known project, and to pin the
+  version as specifically as possible.
