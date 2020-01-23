@@ -1,6 +1,4 @@
-> This project is a [WORK_IN_PROGRESS](project_status/WORK_IN_PROGRESS.md).
-> You should have no expections that it will end up looking anything like it
-> looks now!
+> This project is in [active development](project_status/ACTIVE_DEVELOPMENT.md).
 
 Hello world! This is the NS1 Community repository designed to provide
 guidelines around NS1's open-source, public-facing codebases,
